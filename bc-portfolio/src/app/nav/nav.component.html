@@ -1,10 +1,11 @@
-<div class="navbar">
-    <div class="navbar-inner">
-      <a class="brand" href="#">Title</a>
-      <ul class="nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-      </ul>
-    </div>
-  </div>
+<ul ngbNav #nav="ngbNav" class="nav-tabs">
+  <li ngbNavItem>
+    <a ngbNavLink>First</a>
+    <ng-template ngbNavContent>First content</ng-template>
+  </li>
+  <li ngbNavItem>
+    <a ngbNavLink>Second</a>
+    <ng-template ngbNavContent>Second content</ng-template>
+  </li>
+</ul>
+<div [ngbNavOutlet]="nav"></div>
