@@ -1,0 +1,6 @@
+<div class="content">
+    <app-content-blurb
+        (newItemEvent)="addItem($event)"
+        *ngFor="let item of items">
+    </app-content-blurb>
+</div>

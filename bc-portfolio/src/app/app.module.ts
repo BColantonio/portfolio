@@ -5,10 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ContentMainComponent } from './content-main/content-main.component';
+import { ContentBlurbComponent } from './content-main/content-blurb/content-blurb.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    NavComponent,
+    ContentMainComponent,
+    ContentBlurbComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

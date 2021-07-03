@@ -1,0 +1,20 @@
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 0 8rem 0 8rem;
+    flex-direction: column;
+    background: rgb(234,196,53);
+    background: radial-gradient(circle, rgba(234,196,53,1) 35%, rgba(84,159,147,1) 100%);
+    width: 100%;
+    height: 100vh;
+    border-radius: 10px;
+}
+
+app-content-blurb {    
+    width:100%;
+    height: 100%;
+    background-color: white;
+    margin-top:3rem;
+    opacity: 0.75;
+    border-radius: .5rem;
+}

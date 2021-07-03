@@ -1,3 +1,23 @@
-.nav-tabs {
+.nav-buttons {
+    display: inline-flex;
     justify-content: flex-end;
+    width: 100%;
+}
+
+.nav-buttons li a {
+    border: .5px solid white;
+    color: #795663;
+}
+
+.nav-buttons li a:hover {
+    border: 2px solid white;
+    color: white;
+}
+
+.nav-tabs {
+    border-bottom: 4px solid white;
+}
+
+ul .nav-buttons li {
+    margin: 1rem 0 0 0.5px;
 }
